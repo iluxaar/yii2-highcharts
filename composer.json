@@ -1,0 +1,27 @@
+{
+    "name": "iluxaar/yii2-highcharts",
+    "description": "Yii2 Highcharts",
+    "type": "yii2-extension",
+    "keywords": ["yii2","highcharts","extension"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "iluxaar",
+            "email": "iluxaar@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/highcharts-release": "4.1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "iluxaar\\highcharts\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
